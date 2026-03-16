@@ -19,10 +19,14 @@ Creating A New Repo/Folder that Accept Changes and Sync bewtween your local comp
         right click the folder in VS Code and in the mini menu select "Open in Intergrated Terminal" 
         this will open VS Code CLI
 
-        run the following commands 
+        run the following commands in this order
+
+        git status 
+            check if VS Code is tracking changes, 
+                    skip next 
 
         git init : 
-            will activate code change tracking
+            will activate code change tracking (do it only on BRAND NEWcode files once)
         git add . 
             will stage the changes to be publsihed to Github.com
         git commit -m 
@@ -30,12 +34,21 @@ Creating A New Repo/Folder that Accept Changes and Sync bewtween your local comp
         git remote add origin <repo-URL>
             this will connect the local folder to the online (Github) repo
         git branch -M main
-            defines which verison you are editing main is the orginal 
+            "branch" is a another term for copy/verison "-M" means rename, so you are renaming this copy of code the "main" because this is the base 
         git push -u origin main
             PUSH publishes your code to public, but it wont work unless you are actually making changes to a file (.pyt .md .js etc)
 
+    6. Now start coding
+        if you done all the previous commmands correct with no error
+        every time you add/change the code you should be able to save updated online to git hub
+        by using the following commands it CLI
+        git add . {stages your code}
+        git commit -m "you must type a message"  {saves your code}
+        git push {publishes your code to GitHub online}
 
-Let Say you are now on a new computer and want to pull yhe code from github and continue editing   
+
+
+Let Say you are now on a new computer and want to pull the code from github and continue editing and updating  
 
     1.On your NEW local computer,
         Open File Explore and Create a Folder where you want the code/project saved
