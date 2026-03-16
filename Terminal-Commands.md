@@ -19,4 +19,20 @@ On VS Code (local desktop app)
     right click the folder in VS Code and in the mini menu select "Open in Intergrated Terminal" 
     this will open VS Code CLI
 
-    run the following commands      
+    run the following commands 
+
+    git init : 
+        will activate code change tracking
+    git add . 
+        will stage the changes to be publsihed to Github.com
+    git commit -m 
+        "write a publication msg, fyi this is public" this will save the save the staged stages
+    git remote add origin <repo-URL>
+        this will connect the local folder to the online (Github) repo
+    git branch -M main
+        defines which verison you are editing main is the orginal 
+    git push -u origin main
+        PUSH publishes your code to public, but it wont work unless you are actually making changes to a file (.pyt .md .js etc)
+
+Let Say you are now on a new computer and want to pull yhe code from github and continue editing         
+
