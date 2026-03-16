@@ -40,7 +40,9 @@ Creating A New Repo/Folder that Accept Changes and Sync bewtween your local comp
 
     6. Now start coding
         if you done all the previous commmands correct with no error
+
         every time you add/change the code you should be able to save updated online to git hub
+
         by using the following commands it CLI
         git add . {stages your code}
         git commit -m "you must type a message"  {saves your code}
@@ -59,5 +61,20 @@ Let Say you are now on a new computer and want to pull the code from github and 
             VS Code will then prompt you to select where your want the repo stored locally. (select the folder we created in step 1)
         Once Store Locally 
              you should see the file downloaded is available is the VS Code explorer tab (on the left) 
-                if not you may need to just open the folder, by clicking "open folder" in VS Code   
+                if not you may need to just open the folder, by clicking "open folder" in VS Code
+
+    3.Start Editing normally
+
+  to save to Github      
+    4.On VS Code Terminal (to open ternimal right click on the project file/folder and select open intergated terminal)    
+            Becuase you cloned a repo, you don't need to do "git init"
+        In Terminal use the following 
+        
+         git add . 
+            will stage the changes to be publsihed to Github.com
+        git commit -m 
+            "write a publication msg, fyi this is public" this will save the save the staged stages 
+        git push -u origin main
+            PUSH publishes your code to public, but it wont work unless you are actually making changes to a file (.pyt .md .js etc) you only have to do the full line the once the first time, afterwards "git push" works just fine
+            
 
