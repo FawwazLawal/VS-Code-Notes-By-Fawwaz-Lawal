@@ -34,9 +34,11 @@ Creating A New Repo/Folder that Accept Changes and Sync bewtween your local comp
         git remote add origin <repo-URL>
             this will connect the local folder to the online (Github) repo
         git branch -M main
-            "branch" is a another term for copy/verison "-M" means rename, so you are renaming this copy of code the "main" because this is the base 
+            "branch" is a another term for copy/verison "-M" means rename, so you are renaming this copy of code the "main" 
+            because this is the base 
         git push -u origin main
-            PUSH publishes your code to public, but it wont work unless you are actually making changes to a file (.pyt .md .js etc)
+            PUSH publishes your code to public, but it wont work unless you are actually making changes to a file 
+            (.pyt .md .js etc)
 
     6. Now start coding
         if you done all the previous commmands correct with no error
@@ -57,8 +59,10 @@ Let Say you are now on a new computer and want to pull the code from github and 
   
     2.On VS Code 
         On the welcome tab, in the "Start" in the middle select "Clone Git Repository" 
-            VS Code will asks for the link of the GitHub repo you want to download ie https://github.com/your-username/<your-github-repo>
-            VS Code will then prompt you to select where your want the repo stored locally. (select the folder we created in step 1)
+            VS Code will asks for the link of the GitHub repo you want to download 
+            ie https://github.com/your-username/<your-github-repo>
+            VS Code will then prompt you to select where your want the repo stored locally. 
+            (select the folder we created in step 1)
         Once Store Locally 
              you should see the file downloaded is available is the VS Code explorer tab (on the left) 
                 if not you may need to just open the folder, by clicking "open folder" in VS Code
@@ -76,6 +80,8 @@ Let Say you are now on a new computer and want to pull the code from github and 
          git commit -m 
             "write a publication msg, fyi this is public" this will save the save the staged stages 
          git push -u origin main
-            PUSH publishes your code to public, but it wont work unless you are actually making changes to a file (.pyt .md .js etc) you only have to do the full line the once the first time, afterwards "git push" works just fine
+            PUSH publishes your code to public, but it wont work unless you are actually making changes 
+            to a file (.pyt .md .js etc) you
+            only have to do the full line the once the first time, afterwards "git push" works just fine
 
 
