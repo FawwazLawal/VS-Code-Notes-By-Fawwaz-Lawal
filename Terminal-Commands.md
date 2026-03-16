@@ -5,7 +5,8 @@ Creating A New Repo/Folder that Accept Changes and Sync bewtween your local comp
 
 
     2.On your Local Computer, 
-        create a folder where you want the code and files to save. Folder Name is a Good Idea to be the Project Name ie "Calculator App"
+        create a folder where you want the code and files to save. Folder Name is a Good Idea to be the Project Name 
+        ie "Calculator App"
 
     3.On Github.com 
         Create a repo, give it the same name as the folder on your Desktop Local Computer.
