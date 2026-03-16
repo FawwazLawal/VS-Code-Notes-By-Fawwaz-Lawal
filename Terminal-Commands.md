@@ -65,16 +65,17 @@ Let Say you are now on a new computer and want to pull the code from github and 
 
     3.Start Editing normally
 
-  to save to Github      
+        to save to Github      
     4.On VS Code Terminal (to open ternimal right click on the project file/folder and select open intergated terminal)    
             Becuase you cloned a repo, you don't need to do "git init"
+        
         In Terminal use the following 
         
          git add . 
             will stage the changes to be publsihed to Github.com
-        git commit -m 
+         git commit -m 
             "write a publication msg, fyi this is public" this will save the save the staged stages 
-        git push -u origin main
+         git push -u origin main
             PUSH publishes your code to public, but it wont work unless you are actually making changes to a file (.pyt .md .js etc) you only have to do the full line the once the first time, afterwards "git push" works just fine
-            
+
 
