@@ -100,7 +100,7 @@ the current verison that you are the owner of.
         run the commands
             git status
                 this will tell you how far behind your file is
-                
+
             git pull origin main
                 this will update the local model with the online changes from Github
     
@@ -122,3 +122,40 @@ the current verison that you are the owner of.
             to a file (.pyt .md .js etc) you
                           
 
+
+Ok but maybe you want to edit a code that is not yours.
+    On Github
+        Find the repo of the code you want to work with
+        Create a fork (utlimatley making your own personal copy to you accunt)
+
+    2.On your Local Computer, 
+        create a folder where you want the code and files to save. Folder Name is a Good Idea to be the Project Name 
+    
+    On VS Code
+        in the the folder you want to save the project/code in open a intergrated terminal
+        run the following commands
+        git clone https://github.com/<your-username>/<repo>.git
+
+        git remote add upstream https://github.com/original-owner/repo.git
+
+        git checkout -b <branch-name> 
+            name it other than main because you dont want to edit main code doc, 
+            You create a branch so that:
+            main stays stable
+            your changes are isolated
+            the maintainer can review them
+
+        git add .
+
+        git commit -m "fix bug"
+
+        git push origin <branch-name>
+
+        because you pushed a branch other than main, 
+        online in Github there will be a pull request
+        pull request is like a code merger request, You can merger it with your
+        main forked copy or send it to the 
+        original repo
+
+
+        
