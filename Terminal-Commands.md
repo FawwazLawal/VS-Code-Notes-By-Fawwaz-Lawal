@@ -71,6 +71,7 @@ Let Say you are now on a new computer and want to pull the code from github and 
     3.Start Editing normally
 
         to save to Github      
+    
     4.On VS Code Terminal (to open ternimal right click on the project file/folder and select open intergated terminal)    
             Becuase you cloned a repo, you don't need to do "git init"
         
@@ -85,4 +86,39 @@ Let Say you are now on a new computer and want to pull the code from github and 
             to a file (.pyt .md .js etc) you
             only have to do the full line the once the first time, afterwards "git push" works just fine
 
+
+Ok but now you are back home after working on your code on your new computer 
+you go back to the first computer to continue work but now because its a different computer 
+you have a older code file, How do i sync/pull the code from github and continue editing and updating 
+the current verison that you are the owner of. 
+
+    1.On VS Code 
+        Open the folder of the code/project
+        Open an Intergated Terminal
+    
+    2.On the VS Intergated Terminal
+        run the commands
+            git status
+                this will tell you how far behind your file is
+                
+            git pull origin main
+                this will update the local model with the online changes from Github
+    
+    3.Start Editing Normally 
+
+    to save to Github      
+    
+    4.On VS Code Terminal (to open ternimal right click on the project file/folder and select open intergated terminal)    
+            Becuase you cloned a repo, you don't need to do "git init"
+        
+        In Terminal use the following 
+        
+         git add . 
+            will stage the changes to be publsihed to Github.com
+         git commit -m 
+            "write a publication msg, fyi this is public" this will save the save the staged stages 
+         git push 
+            PUSH publishes your code to public, but it wont work unless you are actually making changes 
+            to a file (.pyt .md .js etc) you
+                          
 
