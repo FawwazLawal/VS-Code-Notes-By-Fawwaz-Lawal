@@ -13,4 +13,10 @@ On Github.com
     Once created GitHub.com will create a link that you use to sync VS Code (on your PC) with Github.com 
          ie https://github.com/your-username/<your-github-repo>
 
-On          
+On VS Code (local desktop app)
+    Top Left click file > open folder, you can tell you are in the file because its show up on the explore tab on the left 
+
+    right click the folder in VS Code and in the mini menu select "Open in Intergrated Terminal" 
+    this will open VS Code CLI
+
+    run the following commands      
